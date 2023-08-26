@@ -17,8 +17,8 @@ set(NO_OCL 1)
 
 include(AddGitSubmodule.cmake)
 
-add_git_submodule(thirdparty/hwinfo)
-include_directories(thirdparty/hwinfo/include)
+add_git_submodule(external/hwinfo)
+include_directories(external/hwinfo/include)
 
 add_executable(cpuinfo src/main.cpp)
 target_link_libraries(cpuinfo PUBLIC hwinfo::HWinfo)
