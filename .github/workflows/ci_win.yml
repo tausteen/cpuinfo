@@ -61,4 +61,4 @@ jobs:
     - name: Run
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
       # Execute cpuinfo
-      run: start cpuinfo
+      run: start cpuinfo.exe
