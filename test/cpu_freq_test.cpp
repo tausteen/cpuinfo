@@ -16,10 +16,10 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    int currentClockSpeed_kHz = hwinfo::CPU::currentClockSpeed_kHz();
-    if (currentClockSpeed_kHz == -1)
-    {
-        return 1;
-    }
+    // int currentClockSpeed_kHz = hwinfo::CPU::currentClockSpeed_kHz();
+    // if (currentClockSpeed_kHz == -1)
+    // {
+    //     return 1;
+    // }
     return 0;
 }
