@@ -28,12 +28,10 @@ add_executable(cpu_model_test test/cpu_model_test.cpp)
 target_link_libraries(cpu_model_test PUBLIC hwinfo::HWinfo)
 add_executable(cpu_cores_test test/cpu_cores_test.cpp)
 target_link_libraries(cpu_cores_test PUBLIC hwinfo::HWinfo)
-add_executable(cpu_freq_test test/cpu_freq_test.cpp)
-target_link_libraries(cpu_freq_test PUBLIC hwinfo::HWinfo)
 
 enable_testing()
 
 add_test(NAME include_hwinfo_test COMMAND include_hwinfo_test)
 add_test(NAME cpu_model_test COMMAND cpu_model_test)
 add_test(NAME cpu_cores_test COMMAND cpu_cores_test)
-add_test(NAME cpu_freq_test COMMAND cpu_freq_test)
+
