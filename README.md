@@ -29,6 +29,11 @@ A simple CLI tool for displaying CPU information
     cmake .. && make
     ```
 
+
+## Run by Github Actions
+
+Output from testing is shown under "Run" in Github Actions.
+
 ## Example
 
 See [main.cpp](src/main.cpp)
